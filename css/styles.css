@@ -788,9 +788,6 @@ justify-content: center;
   transition: 1px solid border-color #2E2F4266;
 }
 
-.modal-form-input {
-  padding-left: 62px;
-}
 
 .modal-form-input::placeholder {
   opacity: 0;
