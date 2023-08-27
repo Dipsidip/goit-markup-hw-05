@@ -667,7 +667,7 @@ ol {
 
 /* Modal icon */
 .backdrop {
-  padding: 72px 24px 24px 24px;
+  
   position: fixed;
   top: 0;
   left: 0;
@@ -680,6 +680,7 @@ ol {
 }
 
 .modal {
+  padding: 72px 24px 24px 24px;
   position: absolute;
   width: 408px;
   min-height: 584px;
@@ -884,11 +885,17 @@ fill: transparent;
 margin-right: 8px;
 }
 
-input[type='checkbox']:checked {
+/* input[type='agreement-checkbox']:checked {
   background-color: #404bbf;
   border: none;
   fill: #f4f4fd;
   
+} */
+
+input:checked+label>span {
+  background-color: #404bbf;
+  border: none;
+  fill: #f4f4fd;
 }
 
 
