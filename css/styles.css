@@ -562,8 +562,8 @@ ol {
 .footer-podtitle {
   font-size: 16px;
   font-weight: 500;
-  line-height: 24px;
-  letter-spacing: 0.32px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
   color: #FFFFFF;
   margin-bottom: 16px;
 }
